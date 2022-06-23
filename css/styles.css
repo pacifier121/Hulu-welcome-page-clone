@@ -41,7 +41,7 @@ body{
 /* Styling for splash container */
 
 .splash-container{
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 20%), url('../../static/images/splash.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 20%), url('../static/images/splash.jpg');
     background-size: cover;
     height: 640px;
     background-repeat: no-repeat;
@@ -200,16 +200,16 @@ body{
 }
 
 .card1{
-    background: linear-gradient(135deg, #00000077, #00000000), url('../../static/images/card1.jpg');
+    background: linear-gradient(135deg, #00000077, #00000000), url('../static/images/card1.jpg');
 }
 .card2{
-    background: linear-gradient(135deg, #00000077, #00000000), url('../../static/images/card2.jpg');
+    background: linear-gradient(135deg, #00000077, #00000000), url('../static/images/card2.jpg');
 }
 .card3{
-    background: linear-gradient(135deg, #00000077, #00000000), url('../../static/images/card3.jpg');
+    background: linear-gradient(135deg, #00000077, #00000000), url('../static/images/card3.jpg');
 }
 .card4{
-    background: linear-gradient(135deg, #00000077, #00000000), url('../../static/images/card4.jpg');
+    background: linear-gradient(135deg, #00000077, #00000000), url('../static/images/card4.jpg');
 }
 
 .card{
