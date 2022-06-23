@@ -1,4 +1,5 @@
 const highlightsButtons = document.querySelectorAll('.highlights-navbar-button');
+const tableHead = document.querySelector('#table-head');
 
 const sportsDiv = document.querySelector('#sports-div');
 const newsDiv = document.querySelector('#news-div');
@@ -43,3 +44,17 @@ highlightsButtons.forEach(btn => {
         activeBtn.classList.add('highlight-navbar-btn-active');
     })
 })
+
+document.querySelector('#table-switch-btn').addEventListener('click', (e) => {
+    document.querySelector('#table-switch-btn').classList.toggle('table-switch-btn-on');
+})
+
+// document.addEventListener('scroll', (e) => {
+//     let tableHeadTop = tableHead.getBoundingClientRect().y;
+//     console.log(tableHeadTop);;
+//     if (tableHeadTop <= 0){
+//         tableHead.style.display = 'absolute';
+//         tableHead.style.position = 'sticky';
+//         tableHead.style.top = 0;
+//     }
+// })
